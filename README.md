@@ -51,6 +51,4 @@ Each module can also be dropped in independently — `location` and `indicators`
 - All HUD elements render with transparent backgrounds, styled for a dark/neon aesthetic.
 - The `speedometer` and `location` UIs communicate via NUI messages (`SendNUIMessage`) and only push updates when the underlying data actually changes, to keep things efficient.
 
-## Credits
 
-Developed by **BS Race**.
