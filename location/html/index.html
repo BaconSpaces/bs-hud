@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BS Race Location</title>
+    <style>
+        html, body { background: transparent !important; background-color: transparent !important; }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background: transparent !important; background-color: transparent !important;">
+    <div id="hud" class="hidden">
+        <div class="loc-panel">
+            <div class="edge edge-top"></div>
+            <div class="edge edge-bottom"></div>
+
+            <div class="panel-inner">
+                <div class="compass-col">
+                    <div class="compass-ring">
+                        <div class="compass-spin" id="compassSpin">
+                            <span class="tick t-n">N</span>
+                            <span class="tick t-e">E</span>
+                            <span class="tick t-s">S</span>
+                            <span class="tick t-w">W</span>
+                        </div>
+                        <div class="compass-needle"></div>
+                        <div class="compass-core">
+                            <span id="cardinal">N</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-col">
+                    <div class="tag-row">
+                        <span class="pulse-dot"></span>
+                        <span class="tag">LOCATION</span>
+                    </div>
+                    <div class="street" id="street">Loading…</div>
+                    <div class="crossing-row" id="crossingRow">
+                        <span class="cross-icon">✕</span>
+                        <span id="crossing">—</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="corner c-tl"></div>
+            <div class="corner c-tr"></div>
+            <div class="corner c-bl"></div>
+            <div class="corner c-br"></div>
+            <div class="glow-bar"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
