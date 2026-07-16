@@ -1,4 +1,4 @@
-# bs-hud
+
 
 A lightweight, futuristic HUD suite for FiveM — speedometer, indicators/engine control, and a street/zone location display. Built as standalone resources so you can run all three together or pick just the ones you need.
 
